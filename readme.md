@@ -30,54 +30,54 @@ Welcome! This repository contains a comprehensive overview of essential Git comm
 ### Git Init
 The `git init` command initializes a new Git repository. Run this command in the project directory to start tracking its files.
 
-git init
+`git init`
 
 ## Git Add
 git add stages changes (new, modified, or deleted files) for commit. This command preps changes, readying them for a commit.
 
-git add <file-name> # adds specific file
-git add .           # adds all changes
+`git add <file-name> # adds specific file`
+`git add .           # adds all changes`
 
 ## Git Commit
 The git commit command saves staged changes to the repository with a descriptive message.
 
-git commit -m "Your commit message here"
+`git commit -m "Your commit message here"`
 
 
 ## Git Push
 git push uploads local repository changes to a remote repository. This is essential for sharing work with others.
 
-git push origin <branch-name>
+`git push origin <branch-name>`
 
 ## Git Status
 Displays the current state of the working directory and staging area, showing which files are modified, staged, or untracked.
 
-git status
+`git status`
 
 ## Git Rm
 git rm removes files from the working directory and the staging area.
-git rm <file-name>
+`git rm <file-name>`
 
 ## Git Stash
 git stash temporarily stores changes that haven’t been committed, allowing you to switch branches or work without losing work in progress.
 
-git stash
-git stash pop # applies the stashed changes
+`git stash`
+`git stash pop # applies the stashed changes`
 
 ## Git Log
 The git log command shows the commit history, providing a detailed list of changes, authors, dates, and messages.
 
-git log
+`git log`
 
 ## Git Show
 git show displays information about a specific commit, including changes made and metadata.
 
-git show <commit-hash>
+`git show <commit-hash>`
 
 ## Git Diff
 Shows changes between commits, branches, or files. Use this to inspect what has been modified.
 
-git diff
+`git diff`
 
 ## Git Branch
 The git branch command lists, creates, or deletes branches. Branches allow for separate lines of development.
