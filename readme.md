@@ -35,8 +35,8 @@ The `git init` command initializes a new Git repository. Run this command in the
 ## Git Add
 git add stages changes (new, modified, or deleted files) for commit. This command preps changes, readying them for a commit.
 
-`git add <file-name> # adds specific file` <br>
-`git add . # adds all changes`
+`git add <file-name> #adds specific file` <br>
+`git add . #adds all changes`
 
 ## Git Commit
 The git commit command saves staged changes to the repository with a descriptive message.
@@ -62,7 +62,7 @@ git rm removes files from the working directory and the staging area.
 git stash temporarily stores changes that haven’t been committed, allowing you to switch branches or work without losing work in progress.
 
 `git stash` <br>
-`git stash pop # applies the stashed changes`
+`git stash pop #applies the stashed changes`
 
 ## Git Log
 The git log command shows the commit history, providing a detailed list of changes, authors, dates, and messages.
@@ -82,9 +82,9 @@ Shows changes between commits, branches, or files. Use this to inspect what has 
 ## Git Branch
 The git branch command lists, creates, or deletes branches. Branches allow for separate lines of development.
 
-`git branch  # lists branches` <br>
-`git branch <name>  # creates a new branch` <br>
-`git branch -d <name>  # deletes a branch` <br>
+`git branch  #lists branches` <br>
+`git branch <name>  #creates a new branch` <br>
+`git branch -d <name>  #deletes a branch` <br>
 
 ## Git Checkout
 git checkout switches branches or restores working tree files. It’s useful for navigating between branches.
