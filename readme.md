@@ -82,56 +82,56 @@ Shows changes between commits, branches, or files. Use this to inspect what has 
 ## Git Branch
 The git branch command lists, creates, or deletes branches. Branches allow for separate lines of development.
 
-git branch           # lists branches
-git branch <name>    # creates a new branch
-git branch -d <name> # deletes a branch
+`git branch  # lists branches`
+`git branch <name>  # creates a new branch`
+`git branch -d <name>  # deletes a branch`
 
 ## Git Checkout
 git checkout switches branches or restores working tree files. It’s useful for navigating between branches.
 
-git checkout <branch-name>
+`git checkout <branch-name>`
 
 ## Git Merge
 Merges changes from one branch into the current branch, combining different lines of development.
 
-git merge <branch-name>
+`git merge <branch-name>`
 
 ## Git Rebase
 Replays commits from one branch onto another, often used for maintaining a linear history.
 
-git rebase <branch-name>
+`git rebase <branch-name>`
 
 ## Git Fetch
 Downloads objects and refs from another repository. Unlike git pull, it only updates the local branch with remote changes without merging.
 
-git fetch
+`git fetch`
 
 ## Git Pull
 Fetches and integrates changes from a remote repository into the current branch.
 
-git pull
+`git pull`
 
 ## Git Reset
 git reset undoes changes by moving the current branch to a different commit, modifying the working directory or staging area accordingly.
 
-git reset <commit-hash>
+`git reset <commit-hash>`
 
 
 ## Git Amend
 Allows you to modify the previous commit, commonly used to correct mistakes in the last commit message or staged changes.
 
-git commit --amend
+`git commit --amend`
 
 ## Git Revert
 Creates a new commit that undoes changes from a previous commit, preserving the project history.
 
-git revert <commit-hash>
+`git revert <commit-hash>`
 
-Creators and PR:
+## Creators and PR:
 
 This assignment was created as part of a DevOps course project to illustrate how Git commands function in a real-world setting. Contributions and pull requests are welcome to expand on the explanations or add more examples.
 
-Happy coding and version-controlling! 
+`Happy coding and version-controlling!` 
 
 
 This README provides clear, beginner-friendly explanations of each command, along with simple code examples to demonstrate their usage.
